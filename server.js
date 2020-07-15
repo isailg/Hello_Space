@@ -1,5 +1,5 @@
-var cafecito = require("express");
-var aplicacion = cafecito();
+var coffee = require("express");
+var aplicacion = coffee();
 
 aplicacion.get("/", inicio);
 aplicacion.get("/cursos", cursos);
